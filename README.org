@@ -1,0 +1,12 @@
+* Details
+Silently uninstalls all McAfee products using McAfee's [[https://download.mcafee.com/molbin/iss-loc/SupportTools/MCPR/MCPR.exe][MCPR Tool]].
+I ran the MCPR tool and made a copy of the files it extracted in $env:temp.
+I had to google this, but I found a source online that showed the command line flags you can use to silently uninstall everything.
+The mistake I made was not making a note of the original source.
+It wasn't very hard at all to find on google.
+
+* Usage
+#+begin_src shell
+# This will take a while to finish running
+./script.ps1
+#+end_src
